@@ -1,0 +1,138 @@
+
+/* From Tutorial */
+
+/*Type selectors*/
+
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    min-width: 400px;
+}
+body, input, button {
+    font-size: 14px;
+    font-family: Roboto, sans-serif;
+    color: black;
+}
+body {
+    background: white;
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+    /* Class selectors */
+
+.middle-section {
+
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    gap: 1.3rem;
+}
+
+.search-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.search-form label {
+    display: none;  
+}
+.search-form input {
+    width: 27rem;
+    padding: 0.5rem;
+    border: none;
+    outline: none;
+}
+
+.search-form-input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #dadce0;
+    gap: 1rem;
+    border-radius: 30px;
+    padding: 0.5rem 1rem;
+}
+        
+.search-form button {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 8px;
+    color: #3c4043;
+    font-family: Google Sans, Roboto, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 11px 4px;
+    padding: 0 16px;
+    height: 36px;
+    text-align: center;
+    cursor: pointer;
+    
+}
+
+.top-section {
+    display: flex;
+    justify-content: space-between;     
+    padding: 1rem;
+    align-items: center;               
+}
+
+.bottom-section {
+    display: flex;
+    justify-content: space-between;     
+    padding: 1rem 1.5rem;
+    align-items: center;
+    background-color: #f2f2f2;    
+    margin-top: 5rem;
+}
+
+.middle img {
+    margin-right: 0.5rem; 
+    vertical-align: middle; 
+}
+
+
+.left-side, .right-side {
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.left-section, .right-section {
+    display: flex;
+    gap: 2.5rem;
+    align-items: center;
+    justify-content: flex-start;
+}
+.app-icon,
+.profile-picture {
+    height: 2rem;
+    width: 2rem;
+    border-radius: 100%;   
+      
+}
+
+
+
+
+
+
+
+
